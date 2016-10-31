@@ -5,6 +5,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
+	padding: 0;
 }
 
 /* Main Header */
@@ -20,7 +21,6 @@ body {
 .wrapper {
 	width: 100%;
 	max-width: 1186px;
-	padding: 0 10px;
 	margin: 0 auto;
 }
 
@@ -106,6 +106,66 @@ button {
     height:60px;
 	width:250px;
 }
+
+/* About Us */
+
+.about-header {
+	font-size: 2.2em;
+	font-weight: bold;
+	color: rgb(15,126,194);
+}
+
+.about-us h1 {
+	margin-bottom: 25px;
+}
+
+.about-col1 {
+	width: 45%;
+	float: left;
+	padding-right: 5%;
+}
+
+.about-col2 {
+	width: 45%;
+	float: right;
+	padding-left: 5%;
+}
+
+.about-us p {
+	font-size: 1.1em;
+	line-height: 160%;
+}
+
+.about-us ul {
+	font-size: 1.1em;
+	line-height: 200%;
+	padding-left: 0;
+	margin-top: 0;
+}
+
+.about-us li {
+    list-style-type: none;
+}
+
+.about-us li:before {
+    content: '\2022';
+    color: rgb(15,126,194);
+    padding-right: 0.5em;
+    font-size: 1.6em;
+}
+
+.about-col2 h2 {
+	font-size: 1.8em;
+	margin: 20px 0;
+}
+
+.about-col2 h2 a {
+	text-decoration: none;
+}
+
+
+
+
 
 
 
