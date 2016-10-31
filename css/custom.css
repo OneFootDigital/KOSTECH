@@ -60,9 +60,9 @@ h1.logo {
 	clear: both;
 }
 
-/* Motto */
+/* Section Motto */
 
-#motto {
+.motto {
 	width: 100%;
 	margin: 100px auto 50px;
 	max-width: 1800px;
@@ -71,12 +71,12 @@ h1.logo {
 	font-weight: bold;
 }
 
-#motto img {
+.motto img {
 	display: block;
 	margin: 10px auto;
 }
 
-#motto h1 {
+.motto h1 {
 	margin: 0;
 }
 
@@ -107,7 +107,7 @@ button {
 	width:250px;
 }
 
-/* About Us */
+/* Section About Us */
 
 .about-header {
 	font-size: 2.2em;
@@ -162,6 +162,64 @@ button {
 .about-col2 h2 a {
 	text-decoration: none;
 }
+
+/* Section Culture */
+
+#culture {
+	background-image: url("../img/bg-about.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	color: white;
+	margin: 150px 0;
+	padding: 60px 0 180px;
+}
+
+.frame {
+	height: 400px;
+	width: 84%;
+	margin: 0 auto;
+}
+
+.frame table {
+	background:rgba(1,1,1,0.4);
+	padding: 70px;
+	line-height: 160%;
+}
+
+#line1 {
+	height: 130px;
+}
+
+#line2 {
+	height: 80px;
+}
+
+#line3 {
+	height: 50px;
+}
+
+th {
+    width: 45%;
+    vertical-align: top;
+    text-align: right;
+    font-size: 1.1em;
+    padding-right: 70px;
+}
+
+td {
+    width: 55%;
+    vertical-align: top;
+    font-size: 0.97em;
+}
+
+
+
+
+
+
+
+
 
 
 
