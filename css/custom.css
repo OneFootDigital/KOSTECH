@@ -7,6 +7,8 @@ body {
 	margin: 0;
 }
 
+/* Main Header */
+
 #main-banner {
 	background-image: url("../img/bg-header.jpg");
 	background-repeat: no-repeat;
@@ -29,29 +31,93 @@ h1.logo {
 	width: 360px;
 	height: 74px;
 	float: left;
+	margin-bottom: 10px;
 }
 
-header nav {
+#main-header nav {
 	float: right;
+	margin-top: 20px;
 }
 
-header nav h2 {
+#main-header nav h2 {
 	text-indent: -10000px;
 	height: 0;
 	margin: 0;
 }
 
-header nav li {
+#main-header nav li {
 	float: left;
 	list-style-type: none;
-	margin: 10px 20px;
+	margin: 10px 0px 10px 40px;
 }
 
-header nav li a {
+#main-header nav li a {
 	text-decoration: none;
 	color: white;
 }
 
-/*header nav ul {
-	margin: 0 auto;
-}*/
+#main-header hr {
+	clear: both;
+}
+
+/* Motto */
+
+#motto {
+	width: 100%;
+	margin: 100px auto 50px;
+	max-width: 1800px;
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+#motto img {
+	display: block;
+	margin: 10px auto;
+}
+
+#motto h1 {
+	margin: 0;
+}
+
+.find-out {
+	width: 100%;
+	margin: 100px auto;
+	max-width: 800px;
+	text-align: center;
+	font-size: 1.5em;
+	padding-bottom: 60px;
+}
+
+.find-out p {
+	margin: 0;
+}
+
+button {
+    background-color: transparent;
+    background-repeat:no-repeat;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    border: 2px solid rgb(15,126,194);
+    cursor:pointer;
+    overflow: hidden;
+    margin: 20px auto 40px;
+    height:60px;
+	width:250px;
+}
+
+
+
+.blue-text {
+	color: rgb(15,126,194);
+}
+
+
+/* Clearfix */
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
