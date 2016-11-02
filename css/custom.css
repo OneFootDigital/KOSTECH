@@ -24,7 +24,7 @@ body {
 	margin: 0 auto;
 }
 
-h1.logo {
+h2.logo {
 	background-image: url("../img/logo-Kostech.png");
 	background-repeat: no-repeat;
 	text-indent: -10000px;
@@ -110,12 +110,12 @@ button {
 /* Section About Us */
 
 .about-header {
-	font-size: 2.2em;
+	font-size: 2.3em;
 	font-weight: bold;
 	color: rgb(15,126,194);
 }
 
-.about-us h1 {
+.about-us h2 {
 	margin-bottom: 25px;
 }
 
@@ -156,6 +156,7 @@ button {
 
 .about-col2 h2 {
 	font-size: 1.8em;
+	font-weight: normal;
 	margin: 20px 0;
 }
 
@@ -171,7 +172,7 @@ button {
 	background-size: cover;
 	width: 100%;
 	color: white;
-	margin: 150px 0;
+	margin-top: 150px;
 	padding: 60px 0 180px;
 }
 
@@ -214,13 +215,39 @@ td {
 }
 
 
+/* Section Latest News */
 
+#latest-news {
+	background-image: url("../img/bg-news.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding: 60px 0;
+}
 
+#latest-news h2 {
+	text-align: center;
+	font-size: 3.9em;
+	font-weight: bold;
+}
 
+#latest-news .gallery div {
+	float: left;
+}
 
+.gallery {
+	width: 80%;
+	margin: 0 auto;
+}
 
+.news-item {
+	width: 30%;
+	margin: 0 auto;
+}
 
-
+/*.news-item img {
+	width: 100%;
+}*/
 
 
 
