@@ -10,8 +10,16 @@ body {
 
 /* Main Header */
 
-#main-banner {
-	background-image: url("../img/bg-header.jpg");
+.main-header {
+	background-image: url("images/bg-header-nav.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	color: white;
+}
+
+.main-banner {
+	background-image: url("images/bg-header-main.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -25,46 +33,49 @@ body {
 }
 
 h2.logo {
-	background-image: url("../img/logo-Kostech.png");
+	background-image: url("images/logo-Kostech.png");
 	background-repeat: no-repeat;
 	text-indent: -10000px;
 	width: 360px;
 	height: 74px;
 	float: left;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
-#main-header nav {
+.main-header nav {
 	float: right;
 	margin-top: 20px;
 }
 
-#main-header nav h2 {
+.main-header nav h2 {
 	text-indent: -10000px;
 	height: 0;
 	margin: 0;
 }
 
-#main-header nav li {
+.main-header nav li {
 	float: left;
 	list-style-type: none;
 	margin: 10px 0px 10px 40px;
 }
 
-#main-header nav li a {
+.main-header nav li a {
 	text-decoration: none;
 	color: white;
 }
 
-#main-header hr {
+.main-header hr {
 	clear: both;
+	margin: 0;
+	padding: 0;
 }
 
 /* Section Motto */
 
 .motto {
 	width: 100%;
-	margin: 100px auto 50px;
+	margin: 0 auto 50px;
+	padding-top: 100px;
 	max-width: 1800px;
 	text-align: center;
 	font-size: 3em;
@@ -168,8 +179,8 @@ button {
 
 /* Section Culture */
 
-#culture {
-	background-image: url("../img/bg-about.jpg");
+.culture {
+	background-image: url("images/bg-about.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -219,24 +230,20 @@ td {
 
 /* Section Latest News */
 
-#latest-news {
-	background-image: url("../img/bg-news.jpg");
+.latest-news {
+	background-image: url("images/bg-news.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
 	padding: 60px 0;
 }
 
-#latest-news h2 {
+.latest-news h2 {
 	text-align: center;
 	font-size: 3.9em;
 	font-weight: bold;
 	color: rgb(51,51,51);
 }
-
-/*#latest-news .gallery div {
-	float: left;
-}*/
 
 .news-item {
 	float: left;
@@ -275,8 +282,8 @@ td {
 
 /* Section Contact Us */
 
-#contact {
-	background-image: url("../img/bg-contact.jpg");
+.contact {
+	background-image: url("images/bg-contact.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -292,7 +299,7 @@ td {
 	margin: 0 auto 100px;
 }
 
-#contact h2 {
+.contact h2 {
 	font-size: 3em;
 }
 
@@ -310,14 +317,14 @@ td {
 	margin-top: 10px;
 }
 
-#contact h3 {
+.contact h3 {
 	font-size: 1.5em;
 }
 
 
 /* Section Map */
 
-#map {
+.map {
 	position: relative;
 }
 
